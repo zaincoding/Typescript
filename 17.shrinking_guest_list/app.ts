@@ -1,17 +1,19 @@
  let guest_list: string[] = ['Usman','Ahmed','Fawad']
-console.log(guest_list.toString()+',are invited.\n');
 
+ for(let i=0; i<guest_list.length; i++){
+   console.log(`${guest_list[i]} is invited.`)
+}
 console.log(guest_list[1] + ",is not participating in the invitation.")
 
 console.log("Now..")
 
 guest_list[1] = "Kashan";
 
- let j=0;
- while(guest_list[j]){
+ let i=0;
+ while(guest_list[i]){
 
- console.log(guest_list[j] +", Invited.");
-  j++;
+ console.log(guest_list[i] +", Invited.");
+  i++;
 }
 console.log("\nI found a bigger dinner table.")
 
@@ -21,10 +23,10 @@ guest_list.push("Haider")
 
  guest_list;
 
- let n=0;
- while(guest_list[n]){
-console.log(guest_list[n]+ ",is invited.")
-  n++;
+  i=0;
+ while(guest_list[i]){
+console.log(guest_list[i]+ ",is invited.")
+  i++;
   
  }
 
@@ -33,11 +35,11 @@ console.log("\ni can invite only two people.")
 
 let result:any = "";
  function invited(gst:any){
-for (let z=0; z< 4;){
+for (let i=0; i< 4;){
 
  console.log(gst.pop()+",sorry i can't invite you for the dinner.");
 
- z++;
+ i++;
   }
 
 for (let i=0; i<gst.length;){
