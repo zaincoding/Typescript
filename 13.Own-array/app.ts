@@ -1,6 +1,5 @@
 let favourite_tp: string[] = ['Bus','Motercyle','Mercedes Car','Bicycle']
 
-let myfav_tp:string = "Mercedes Car"; 
 
 for(let i=0; i<favourite_tp.length;){
     
