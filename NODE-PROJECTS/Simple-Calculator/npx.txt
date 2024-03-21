@@ -1,0 +1,2 @@
+Simple Calculator project
+https://www.npmjs.com/package/3s5p9c-simple-calculator
