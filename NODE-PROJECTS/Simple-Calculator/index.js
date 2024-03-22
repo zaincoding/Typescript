@@ -1,8 +1,6 @@
 #! /user/bin/env node
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var inquirer_1 = require("inquirer");
-var answer = await inquirer_1.default.prompt([
+import inquirer from "inquirer";
+const answer = await inquirer.prompt([
     { message: "Enter the first number", type: "number", name: "firstNumber" },
     { message: "Enter second number", type: "number", name: "secondNumber" },
     {
