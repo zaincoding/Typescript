@@ -1,5 +1,0 @@
-Guessing Number Game.
-https://www.npmjs.com/~zainmd?activeTab=packages
-
-
-
