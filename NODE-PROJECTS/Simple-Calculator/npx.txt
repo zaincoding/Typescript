@@ -1,2 +1,5 @@
-Simple Calculator project
-https://www.npmjs.com/package/3s5p9c-simple-calculator
+Guessing Number Game.
+https://www.npmjs.com/~zainmd?activeTab=packages
+
+
+
