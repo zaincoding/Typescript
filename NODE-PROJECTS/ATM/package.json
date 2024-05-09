@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "2024-atm": "^1.0.0",
+    "inquirer": "^9.2.20"
+  },
+  "name": "atm",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
