@@ -1,12 +1,10 @@
-const Alien_color = ["Green","red","yellow"];
-const i = Alien_color.indexOf("Green");
+let Alien_color = "Green";
     
-
-if(Alien_color[i] == "Green" ){
+if(Alien_color == "Green" ){
    console.log("The player just earned 5 points.")
 }
 
-
-if(Alien_color[i] != "Green" ){
+Alien_color = "Red"
+if(Alien_color == "Green" ){
     console.log("The player just earned 5 points.")
  }
