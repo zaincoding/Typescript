@@ -1,14 +1,30 @@
-const Alien_color = ["Green","Red","Yellow"];
+     let alienColor = "Green"
+     if(alienColor === 'Green'){
+            console.log(`The Player 5 point.`)
+     }
+     else if('Yellow'){
+           console.log('The player earn 10 points')
+ }else{
+    console.log('The player earn 15 points.')
+ }
 
+ alienColor = 'Yellow';
 
-for(let i=0; i <Alien_color.length; i++){
-   if(Alien_color[i] === "Green"){
-      console.log("The player just earned 5 points.")
-   }
-   if(Alien_color[i] === "Yellow"){
-      console.log("The player just earned 10 points.")
-   }
-   if(Alien_color[i] === "Red"){
-      console.log("The player just earned 15 points.")
-   }
+ if(alienColor === 'Green'){
+    console.log(`The Player 5 point.`)
+}
+else if('Yellow'){
+   console.log('The player earn 10 points')
+}else{
+console.log('The player earn 15 points.')
+
+}
+alienColor = 'Read'
+if(alienColor === 'Green'){
+    console.log(`The Player 5 point.`)
+}
+else if(alienColor === 'Yellow'){
+   console.log('The player earn 10 points....')
+}else{
+console.log('The player earn 15 points.')
 }
